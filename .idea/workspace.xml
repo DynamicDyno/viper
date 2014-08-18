@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d51c5be-0bdd-4c8f-8746-b827eb15c4b7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/commit_tools.rake" afterPath="$PROJECT_DIR$/lib/tasks/commit_tools.rake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="viper.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,21 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.098684214" vertical-offset="0" max-vertical-offset="760">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commit_tools.rake" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="commit_tools.rake" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/commit_tools.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="784">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -158,14 +160,14 @@
         <option value="$PROJECT_DIR$/config/scss-lint.yml" />
         <option value="$PROJECT_DIR$/lib/tasks/pre_commit.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/pre_commit.rake" />
-        <option value="$PROJECT_DIR$/lib/tasks/commit_tools.rake" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" />
+        <option value="$PROJECT_DIR$/lib/tasks/commit_tools.rake" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1749" />
-    <option name="y" value="192" />
+    <option name="y" value="194" />
     <option name="width" value="2104" />
     <option name="height" value="878" />
   </component>
@@ -583,7 +585,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1749" y="192" width="2104" height="878" extended-state="0" />
+    <frame x="1749" y="194" width="2104" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -700,18 +702,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/commit_tools.rake">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.css.scss">
+    <entry file="file://$PROJECT_DIR$/lib/tasks/commit_tools.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.098684214" vertical-offset="0" max-vertical-offset="760">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="784">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding />
         </state>
       </provider>

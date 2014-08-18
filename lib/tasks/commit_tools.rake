@@ -6,12 +6,13 @@ task :lint_scss do
 end
 
 desc 'commit all changes'
-task :commit_all, [:comment] do |t, arghash|
+task :commit_all, [:comment] do |t, args|
   sh "git add -A"
-  sh "git commit -am '#{arghash.comment}'"
+  sh "git commit -am '#{args.comment}'"
 end
 
 desc 'lints scss files and commits all changes'
-task :commit => [:lint_scss, :commit_all] do
-
+task :commit, [:comment] do |t, args|
+  Rake::Task["lint_scss"].execute
+  Rake::Task["commit_all"].execute(args)
 end
