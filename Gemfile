@@ -9,6 +9,7 @@ group :production do
   gem 'pg'
 end
 gem 'rails_serve_static_assets', group: [:production]
+gem 'heroku_rails_deflate', :group => :production
 
 gem 'sass-rails', :git => 'git://github.com/rails/sass-rails.git' # point this back to rubygems once they officially support sass 3.3
 gem 'haml-rails'
