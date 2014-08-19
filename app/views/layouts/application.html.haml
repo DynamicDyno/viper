@@ -4,6 +4,7 @@
   %title Viper
   -#= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
   = csrf_meta_tags
+  %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1'}
   %style{:type => "text/css"}
     = Rails.application.assets.find_asset("critical/sitewide.css").to_s.html_safe
   %script{:type => "text/javascript"}
