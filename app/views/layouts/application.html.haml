@@ -5,5 +5,9 @@
   = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
   = javascript_include_tag 'application', 'data-turbolinks-track' => true
   = csrf_meta_tags
+  %style{:type => "text/css"}
+    = Rails.application.assets.find_asset("critical/sitewide.css").to_s.html_safe
+  %script{:type => "text/javascript"}
+    = Rails.application.assets.find_asset("critical.js.erb").to_s.html_safe
   %body
     = yield
