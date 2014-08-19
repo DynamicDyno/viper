@@ -2,11 +2,13 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.4'
 
+# this is all stuff to get heroku to work
 gem 'sqlite3', :group => [:development, :test]
 group :production do
   gem 'thin'
   gem 'pg'
 end
+gem 'rails_serve_static_assets', group: [:production]
 
 gem 'sass-rails', :git => 'git://github.com/rails/sass-rails.git' # point this back to rubygems once they officially support sass 3.3
 gem 'haml-rails'
