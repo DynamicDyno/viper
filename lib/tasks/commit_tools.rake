@@ -2,13 +2,14 @@
 
 desc 'lints scss'
 task :lint_scss do
-  sh "scss-lint app/assets/stylesheets/ -e 'app/assets/stylesheets/application.css'"
+  sh "scss-lint app/assets/stylesheets/ -c 'config/scss-lint.yml'"
 end
 
 desc 'commit all changes'
 task :commit_all, [:comment] do |t, args|
   sh "git add -A"
   sh "git commit -am '#{args.comment}'"
+  sh "git push origin master"
 end
 
 desc 'lints scss files and commits all changes'

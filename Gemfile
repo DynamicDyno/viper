@@ -1,13 +1,18 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.1.4'
-gem 'sqlite3'
 
-gem 'sass-rails'
+gem 'sqlite3', :group => [:development, :test]
+group :production do
+  gem 'thin'
+  gem 'pg'
+end
+
+gem 'sass-rails', :git => 'git://github.com/rails/sass-rails.git' # point this back to rubygems once they officially support sass 3.3
 gem 'haml-rails'
 gem 'uglifier'
 gem 'autoprefixer-rails'
-gem 'scss-lint'
+gem 'scss-lint', '0.26.2'
 
 gem 'therubyracer',  platforms: :ruby
 
