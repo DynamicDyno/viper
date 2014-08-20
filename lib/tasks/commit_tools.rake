@@ -7,7 +7,7 @@ end
 
 desc 'lints ruby'
 task :lint_ruby do
-  sh "rubocop ./"
+  sh "rubocop ./ -c 'config/rubocop.yml'"
   puts "test"
 end
 
@@ -21,5 +21,6 @@ end
 desc 'lints scss files and commits all changes'
 task :commit, [:comment] do |t, args|
   Rake::Task["lint_scss"].execute
+  Rake::Task["lint_ruby"].execute
   Rake::Task["commit_all"].execute(args)
 end

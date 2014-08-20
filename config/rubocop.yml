@@ -7,3 +7,9 @@ AllCops:
     - 'script/**/*'
     - 'bin/**/*'
     - !ruby/regexp /old_and_unused\.rb$/
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
