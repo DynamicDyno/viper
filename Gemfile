@@ -15,7 +15,10 @@ gem 'sass-rails', :git => 'git://github.com/rails/sass-rails.git' # point this b
 gem 'haml-rails'
 gem 'uglifier'
 gem 'autoprefixer-rails'
+
+# linters
 gem 'scss-lint', '0.26.2'
+gem 'rubocop', require: false
 
 gem 'therubyracer',  platforms: :ruby
 

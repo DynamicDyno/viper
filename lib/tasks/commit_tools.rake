@@ -5,6 +5,12 @@ task :lint_scss do
   sh "scss-lint app/assets/stylesheets/ -c 'config/scss-lint.yml'"
 end
 
+desc 'lints ruby'
+task :lint_ruby do
+  sh "rubocop ./"
+  puts "test"
+end
+
 desc 'commit all changes'
 task :commit_all, [:comment] do |t, args|
   sh "git add -A"
