@@ -16,3 +16,15 @@ Just run this command to do everything needed for a good commit:
 [Ruby style guide](https://github.com/bbatsov/ruby-style-guide)
 
 `rake lint_ruby`
+
+## Optimizing Images
+
+If you add any images to this repo, they should be compressed as far as possible. We're using three programs to compress images, and you can find the [installation instructions here](https://github.com/JamieMason/ImageOptim-CLI).
+
+To compress all images, run:
+
+`rake optimize_images`
+
+To optimize images but not run JPEGmini (the only compressor without a command line tool), run:
+
+`rake optimize_images_no_jpegmini`
