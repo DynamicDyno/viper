@@ -11,6 +11,7 @@ desc 'lints scss files and commits all changes'
 task :commit, [:comment] do |t, args|
   Rake::Task["lint_scss"].execute
   Rake::Task["lint_ruby"].execute
+  Rake::Task["jshint"].execute
   Rake::Task["optimize_images_no_jpegmini"].execute
   Rake::Task["commit_all"].execute(args)
 end

@@ -15,16 +15,17 @@ gem 'sass-rails', :git => 'git://github.com/rails/sass-rails.git' # point this b
 gem 'haml-rails'
 gem 'uglifier'
 gem 'autoprefixer-rails'
+gem 'coffee-rails'
 
 # linters
-gem 'scss-lint', '0.26.2'
+gem 'scss-lint', '~> 0.26.2'
+gem 'jshint_on_rails'
 gem 'rubocop', require: false
 
 gem 'therubyracer',  platforms: :ruby
 
 gem 'jquery-rails'
-gem 'turbolinks'
-gem 'jbuilder'
+gem 'pjax_rails'
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring', group: :development

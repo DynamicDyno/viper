@@ -10,6 +10,8 @@
   %script{:type => "text/javascript"}
     = Rails.application.assets.find_asset("critical.js.erb").to_s.html_safe
   %body
-    = yield
+    = render "modules/header"
+    #pjax-container
+      = yield
 
-    = javascript_include_tag 'application', 'data-turbolinks-track' => true, :async => true
+    = javascript_include_tag 'application', async: true, debug: false
