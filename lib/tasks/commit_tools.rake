@@ -9,11 +9,29 @@ end
 
 desc 'lints scss files and commits all changes'
 task :commit, [:comment] do |t, args|
+  puts "### linting scss ###"
   Rake::Task["lint_scss"].execute
+  puts "### finished linting scss ###"
+  puts ""
+
+  puts "### linting ruby ###"
   Rake::Task["lint_ruby"].execute
+  puts "### finished linting ruby ###"
+  puts ""
+
+  puts "### linting javascript ###"
   Rake::Task["jshint"].execute
+  puts "### finished linting javascript ###"
+  puts ""
+
+  puts "### optimizing images ###"
   Rake::Task["optimize_images_no_jpegmini"].execute
+  puts "### finished optimizing images ###"
+  puts ""
+
+  puts "### committing changes ###"
   Rake::Task["commit_all"].execute(args)
+  puts "### finished committing changes ###"
 end
 
 desc 'lints scss'
