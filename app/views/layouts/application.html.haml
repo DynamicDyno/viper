@@ -12,6 +12,6 @@
   %body
     = render "modules/header"
     #pjax-container
-      = yield
+      = content_for?(:content) ? yield(:content) : yield
 
     = javascript_include_tag 'application', async: true, debug: false

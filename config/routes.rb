@@ -11,5 +11,8 @@ Rails.application.routes.draw do
   get '/subnav3', to: 'home#subnav3'
   get '/subnav4', to: 'home#subnav4'
 
-  mount Kss::Engine => '/styleguide' if Rails.env.development?
+  get '/styleguide', to: 'kss/home#index'
+  get '/styleguide/1.0', to: 'kss/home#one', as: :styleguide_1
+
+  # mount Kss::Engine => '/kss' if Rails.env.development?
 end
