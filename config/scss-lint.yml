@@ -1,1 +1,8 @@
 exclude: '../app/assets/stylesheets/application.css'
+
+linters:
+  MergeableSelector:
+    enabled: false
+
+  PropertySortOrder:
+    enabled: false

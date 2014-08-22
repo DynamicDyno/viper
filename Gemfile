@@ -16,6 +16,7 @@ gem 'haml-rails'
 gem 'uglifier'
 gem 'autoprefixer-rails'
 gem 'coffee-rails'
+gem 'kss-rails'
 
 # linters
 gem 'scss-lint', '~> 0.26.2'
@@ -41,4 +42,3 @@ gem 'spring', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-

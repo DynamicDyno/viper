@@ -12,6 +12,11 @@ Just run this command to do everything needed for a good commit:
 
 `rake lint_scss`
 
+### Javascript (JSHint)
+[JSHint docs](http://www.jshint.com/docs/)
+
+`rake jshint`
+
 ### Ruby
 [Ruby style guide](https://github.com/bbatsov/ruby-style-guide)
 
